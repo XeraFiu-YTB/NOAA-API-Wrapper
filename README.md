@@ -12,7 +12,7 @@
 ## **__datacategories__**
 | name | required |
 | ----------- | ----------- |
-| datasetid | false |
+| [datasetid](#datasetid) | false |
 | locationid | false |
 | stationid | false |
 | startdate | false |
@@ -25,7 +25,7 @@
 ## **__datatypes__**
 | name | required |
 | ----------- | ----------- |
-| datasetid | false |
+| [datasetid](#datasetid) | false |
 | locationid | false |
 | stationid | false |
 | datacategoryid | false |
@@ -39,7 +39,7 @@
 ## **__datasets__**
 | name | required |
 | ----------- | ----------- |
-| datatypeid | false |
+| [datasetid](#datasetid) | false |
 | locationid | false |
 | stationid | false |
 | startdate | false |
@@ -54,7 +54,7 @@
 ## **__locationcategories__**
 | name | required |
 | ----------- | ----------- |
-| datasetid | false |
+| [datasetid](#datasetid) | false |
 | startdate | false |
 | enddate | false |
 | sortfield | false |
@@ -65,7 +65,7 @@
 ## **__stations__**
 | name | required |
 | ----------- | ----------- |
-| datasetid | false |
+| [datasetid](#datasetid) | false |
 | locationid | false |
 | datacategoryid | false |
 | datatypeid | false |
@@ -80,7 +80,7 @@
 ## **__locations__**
 | name | required |
 | ----------- | ----------- |
-| datasetid | false |
+| [datasetid](#datasetid) | false |
 | locationcategoryid | false |
 | parentid | false |
 | startdate | false |
@@ -93,7 +93,7 @@
 ## **__data__**
 | name | required |
 | ----------- | ----------- |
-| datasetid | false |
+| [datasetid](#datasetid) | false |
 | datatypeid | false |
 | locationid | false |
 | stationid | false |
@@ -105,3 +105,19 @@
 | sortorder | false |
 | limit | false |
 | offset | false |
+
+# __**Params**__
+## datasetid
+| id | name | mindate | maxdate |
+| ----------- | ----------- | ----------- | ----------- |
+| GHCND | Daily Summaries | 1763-01-01 | 2022-04-11 |
+| GSOM | Global Summary of the Month | 1763-01-01 | 2022-04-01 |
+| GSOY | Global Summary of the Year | 1763-01-01 | 2022-01-01 |
+| NEXRAD2 | Weather Radar (Level II) | 1991-06-05 | 2022-04-11 |
+| NEXRAD3 | Weather Radar (Level III) | 1994-05-20 | 2022-04-11 |
+| NORMAL_ANN | Normals Annual/Seasonal | 2010-01-01 | 2010-01-01 |
+| NORMAL_DLY | Normals Daily | 2010-01-01 | 2010-12-31 |
+| NORMAL_HLY | Normals Hourly | 2010-01-01 | 2010-12-31 |
+| NORMAL_MLY | Normals Monthly | 2010-01-01 | 2010-12-01 |
+| PRECIP_15 | Precipitation 15 Minute | 1970-05-12 | 2014-01-01 |
+| PRECIP_HLY | Precipitation Hourly | 1900-01-01 | 2014-01-01 |
