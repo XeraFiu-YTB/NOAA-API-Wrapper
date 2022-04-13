@@ -21,9 +21,10 @@
 | sortorder | false |
 | limit | false |
 | offset | false |
+
 ## **__datatypes__**
 | name | required |
----
+| ----------- | ----------- |
 | datasetid | false |
 | locationid | false |
 | stationid | false |
@@ -34,9 +35,10 @@
 | sortorder | false |
 | limit | false |
 | offset | false |
+
 ## **__datasets__**
 | name | required |
----
+| ----------- | ----------- |
 | datatypeid | false |
 | locationid | false |
 | stationid | false |
@@ -48,9 +50,10 @@
 | sortorder | false |
 | limit | false |
 | offset | false |
+
 ## **__locationcategories__**
 | name | required |
----
+| ----------- | ----------- |
 | datasetid | false |
 | startdate | false |
 | enddate | false |
@@ -58,9 +61,10 @@
 | sortorder | false |
 | limit | false |
 | offset | false |
+
 ## **__stations__**
 | name | required |
----
+| ----------- | ----------- |
 | datasetid | false |
 | locationid | false |
 | datacategoryid | false |
@@ -72,9 +76,10 @@
 | sortorder | false |
 | limit | false |
 | offset | false |
+
 ## **__locations__**
 | name | required |
----
+| ----------- | ----------- |
 | datasetid | false |
 | locationcategoryid | false |
 | parentid | false |
@@ -84,9 +89,10 @@
 | sortorder | false |
 | limit | false |
 | offset | false |
+
 ## **__data__**
 | name | required |
----
+| ----------- | ----------- |
 | datasetid | false |
 | datatypeid | false |
 | locationid | false |
