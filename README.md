@@ -11,7 +11,7 @@
 
 ## **__datacategories__**
 | name | required |
----
+| ----------- | ----------- |
 | datasetid | false |
 | locationid | false |
 | stationid | false |
