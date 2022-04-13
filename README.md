@@ -1,1 +1,1 @@
-<pre># Test</pre> <pre>---</pre>
+<p># Test</p> <p>---</p>
